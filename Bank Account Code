@@ -23,13 +23,10 @@ public class NewAccount {
 
 		//testing to be the first and the second account has the same ID values
 		
-		//if(firstAccount == secondAccount) {
+		if(firstAccount == secondAccount) {
 			//System.out.println("same ID");
-		//}else {
+		}else {
 			//System.out.println("not is same ID");
-		//}
-		
-    
+		}	
 	}
-
 }
