@@ -1,0 +1,21 @@
+public class TestingReference {
+  public static void main (String [] args){
+    Account firstAccount = new Account();
+    firstAccount.balance = 300;
+    System.out.println("Balance of the first account" + firstAccount.balance);
+    
+    Account secondAccount = firstAccount;
+    // testing whether the value will be the same as the first.
+    System.out.println("Balance second account: " + secondAccount.balance);
+    
+    secondAccount += 100;
+    System.out.println("Balance second account: " + secondAccount.balance);
+    
+    // testing to see if the ID the same
+    if(firstAccount == secondAccount) {
+      System.out.println("same account ID
+    }else {
+      System.out.println("not is same account ID");
+    }
+  }   
+}
