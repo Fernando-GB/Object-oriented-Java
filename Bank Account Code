@@ -1,18 +1,18 @@
-public class CriaConta {
+public class NewAccount {
 	
 	public static void main(String [] args) {
-		Conta primeiraConta = new Conta();
-		primeiraConta.saldo = 200;
-		System.out.println(primeiraConta.saldo);
+		Account firstAccount = new Account();
+		firstAccount.balance = 200;
+		System.out.println(firstAccount.balance);
 		
-		primeiraConta.saldo += 100;
-		System.out.println(primeiraConta.saldo);
+		firstAccount.balance += 100;
+		System.out.println(firstAccount.balance);
 		
-		Conta segundaConta = new Conta();
-		segundaConta.saldo = 50;
+		Account secondAccount = new Account();
+		secondAccount.balance = 50;
 		
-		System.out.println("Primeira conta tem " + primeiraConta.saldo);
-		System.out.println("Segunda conta tem " + segundaConta.saldo);
+		System.out.println("First account have " + firstAccount.balance);
+		System.out.println("Second account have " + secondAccount.balance);
     
 	}
 
