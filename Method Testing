@@ -1,0 +1,11 @@
+public class MethodTesting {
+  public static void main (String [] args){
+    Account Account.balance = new Account();
+    account.balance = 100;
+    account.deposit(50);
+    
+    System.out.println(account.balance);
+    account.withdraw(20);
+    System.out.println(account.balance);
+  }
+}
