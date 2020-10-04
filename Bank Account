@@ -17,4 +17,13 @@ public class Account {
 				return false;
 			}
 		}
+		
+		public boolean transfer(double value, Accoount destination) {
+			if(this.balance >= value) {
+				this.balance -= value;
+				destino.withdraw(value);
+				return true;
+			}else {
+				return false;
+			}
 }
