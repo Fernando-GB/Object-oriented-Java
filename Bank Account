@@ -5,7 +5,7 @@ public class Account {
 		int number;
 		String holder;
 		
-		public void withdraw (double value) {
+		public void deposit (double value) {
 			this.balance += value;
 		}
 		
@@ -21,7 +21,7 @@ public class Account {
 		public boolean transfer(double value, Accoount destination) {
 			if(this.balance >= value) {
 				this.balance -= value;
-				destination.withdraw(value);
+				destination.deposit(value);
 				return true;
 			}else {
 				return false;
