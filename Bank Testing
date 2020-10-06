@@ -1,0 +1,15 @@
+public class BankTesting {
+
+  public static void main(String [] args){
+    Customer boot = new Customer();
+    boot.name = "boot 1";
+    boot.tin = "222-22-2222";
+    boot.profession = "programmer";
+    
+    Account accountBoot = new Account();
+    contaBoot.deposit(100);
+    
+    accountBoot.holder = boot;
+    System.out.println(accountBoot.holder.name);
+  }
+}
