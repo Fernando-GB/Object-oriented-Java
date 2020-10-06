@@ -3,7 +3,7 @@ public class Account {
 		double balance;
 		int agency;
 		int number;
-		ustomer holder;
+		Customer holder;
 		
 		public void deposit (double value) {
 			this.balance += value;
