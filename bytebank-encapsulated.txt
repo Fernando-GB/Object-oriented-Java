@@ -17,7 +17,7 @@ public class Account{
         }
     }
     public boolean transfer (double value, Account destination){
-        if(this.balance >= value);{
+        if(this.balance >= value){
             this.balance -= value;
             destination.deposit(value);
             return true;
